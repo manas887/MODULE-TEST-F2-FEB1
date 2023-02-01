@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    background-color: whitesmoke;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+    /* border-radius: 4px; */
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.main-form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.form{
+    display: none;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    /* margin-left: 45px; */
+    background-color:rgb(176, 209, 218);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#heading{
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(176, 209, 218);
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    background-color:rgb(176, 209, 218);
+}
+
+label{
+    background-color:rgb(176, 209, 218);
+    padding: 4px;
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: large;
+}
+
+input{
+   background-color: whitesmoke;
+   padding: 4px;
+   font-size: 20px;
+   border-radius: 6px;
+   font-weight: normal;
+}
+
+button{
+    padding: 8px;
+    margin-top: 18px;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    background-color: rgb(39, 37, 37);
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.display-data{
+    display: none;
+    background-color: rgb(221, 215, 215);
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 350px;
+    height: 100px;
+}
+
+.dice-container{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    border-radius: 8px;
+
+}
+
+#dice{
+    border-radius: 8px;
+}
+
+.couponcode{
+    display: none;
+}

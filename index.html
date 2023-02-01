@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery With Js Functionality</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="flex-container">
+
+            <img id="img1" src="./one.jpg">
+
+            <img id="img2" src="./two.jpg">
+
+            <img id="img3" src="./three.jpg">
+
+            <img id="img4" src="./four.jpg">
+
+        </div>
+
+    </div>
+
+
+    <div class="main-form" id="main-form">
+        <form class="form" action="" id="form">
+
+            <h1 id="heading" style="font-size: large;"> Register Yourself </h1>
+
+            <div class="sections">
+                <label for="name"> Name :</label>
+                <input type="text" placeholder="Enter Your Name" id="name" required>
+            </div>
+
+            <div class="sections">
+                <label for="email"> E-mail :</label>
+                <input type="email" placeholder="Enter Your E-mail" id="email" required>
+            </div>
+
+            <div class="sections">
+                <label for="username"> UserName :</label>
+                <input type="text" placeholder="Enter Your UserName" id="username" required>
+            </div>
+
+            <button type="submit" id="submit"> Submit</button>
+
+        </form>
+
+        <div class="display-data" id="display-data">
+                <!-- Data Display -->
+            <p style="font-weight: bold;">Name: <span id="data-name"></span></p><br>
+            <p style="font-weight: bold;">Username: <span id="data-username"></span></p>
+        </div>
+
+        <div class="dice-container" id="dice-container">
+            <img id="dice" src="./dices.jpg"><br>
+            <p id="sum"></p>
+        </div>
+
+
+    </div>
+
+    <div class="couponcode" id="couponcode" style="font-weight: bold; margin-left: 40px;">Congratulation the generated Coupon is : <span class="coupon" id="coupon"></span></div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
